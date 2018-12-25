@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F47D9A3921D2DC7000FF13CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D9A3821D2DC7000FF13CD /* AppDelegate.swift */; };
-		F47D9A3B21D2DC7000FF13CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D9A3A21D2DC7000FF13CD /* ViewController.swift */; };
+		F47D9A3B21D2DC7000FF13CD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D9A3A21D2DC7000FF13CD /* SearchViewController.swift */; };
 		F47D9A3E21D2DC7000FF13CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47D9A3C21D2DC7000FF13CD /* Main.storyboard */; };
 		F47D9A4121D2DC7000FF13CD /* StoreSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F47D9A3F21D2DC7000FF13CD /* StoreSearch.xcdatamodeld */; };
 		F47D9A4321D2DC7300FF13CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47D9A4221D2DC7300FF13CD /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		F47D9A3521D2DC7000FF13CD /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47D9A3821D2DC7000FF13CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F47D9A3A21D2DC7000FF13CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F47D9A3A21D2DC7000FF13CD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		F47D9A3D21D2DC7000FF13CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F47D9A4021D2DC7000FF13CD /* StoreSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StoreSearch.xcdatamodel; sourceTree = "<group>"; };
 		F47D9A4221D2DC7300FF13CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				F47D9A3821D2DC7000FF13CD /* AppDelegate.swift */,
-				F47D9A3A21D2DC7000FF13CD /* ViewController.swift */,
+				F47D9A3A21D2DC7000FF13CD /* SearchViewController.swift */,
 				F47D9A3C21D2DC7000FF13CD /* Main.storyboard */,
 				F47D9A4221D2DC7300FF13CD /* Assets.xcassets */,
 				F47D9A4421D2DC7300FF13CD /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F47D9A3B21D2DC7000FF13CD /* ViewController.swift in Sources */,
+				F47D9A3B21D2DC7000FF13CD /* SearchViewController.swift in Sources */,
 				F47D9A3921D2DC7000FF13CD /* AppDelegate.swift in Sources */,
 				F47D9A4121D2DC7000FF13CD /* StoreSearch.xcdatamodeld in Sources */,
 			);
@@ -435,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SL9XYHXV26;
 				INFOPLIST_FILE = StoreSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SL9XYHXV26;
 				INFOPLIST_FILE = StoreSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
